@@ -65,7 +65,9 @@ async function tick() {
       console.log('no status change');
     }
 
-    offset = compute_offset(evse.updated);
+    if (currentStatus === STATUS.OCCUPIED) {
+      offset = compute_offset(evse.updated);
+    }
   } else {
     console.error('content error');
   }
