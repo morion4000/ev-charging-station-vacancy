@@ -1,4 +1,4 @@
 # ev-charging-station-vacancy
 
-## Run
+## Run the service
 `npm start`
