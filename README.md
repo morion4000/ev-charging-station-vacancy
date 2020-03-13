@@ -8,6 +8,7 @@ Querying ("polling") the endpoint for an available charge point for any interval
 
 ## Installation
 `git clone https://github.com/morion4000/ev-charging-station-vacancy.git`
+
 `npm install`
 
 ## Run the service
